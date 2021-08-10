@@ -17,10 +17,8 @@ const Book=()=>{
         <Speed></Speed>
     </article>
 }
-const Img=()=>{
-    return<img src="stefan-rodriguez-2AovfzYV3rc-unsplash.jpg" alt="this is car image" width="500" height="500"></img>
-}
-const Company=()=><h1>Cheverolet</h1>
+const Img=()=><img src="stefan-rodriguez-2AovfzYV3rc-unsplash.jpg" alt="this is car image" width="500" height="500"></img>
+const Company=()=><h1 style={{color:'#32a852',fontsize:'0.75rem',marginTop:"0.25rem"}}>Cheverolet</h1>
 
-const Speed=()=><h1>300</h1>
+const Speed=()=><h2 style={{color:'#a632a8',fontsize:'0.75rem',marginTop:"0.25rem"}}>300</h2>
 export default BookStore
