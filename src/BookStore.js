@@ -4,7 +4,6 @@ function BookStore()
 {
     return(
         <section className="booklist">
-            <h1>this is my first page</h1>
             <Book />
             <Book />
             <Book />
